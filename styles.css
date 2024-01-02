@@ -11,17 +11,14 @@ body {
     display: flex;
 }
 
-.profile {
-    width: 30%;
-}
-
-img {
-    width: 100%;
-    border-radius: 50%; /* Make the profile photo round */
-}
-
 .content {
     width: 70%;
+    padding: 20px;
+}
+
+.about-me {
+    width: 30%;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
@@ -36,7 +33,6 @@ h1 {
     margin: 0;
 }
 
-.about-me,
 .skills,
 .projects,
 .education {
